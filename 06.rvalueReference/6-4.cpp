@@ -1,5 +1,7 @@
 #include <iostream>
-class BigMemoryPool {
+
+class BigMemoryPool
+{
 public:
 	static const int PoolSize = 4096;
 	BigMemoryPool() : pool_(new char[PoolSize]) {}
